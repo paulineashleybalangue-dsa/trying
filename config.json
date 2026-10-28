@@ -1,0 +1,20 @@
+{
+  "input_dir": "data/raw",
+  "output_dir": "outputs",
+  "reporting_year": 2007,
+  "manifest": "data/raw/manifest.json",
+  "inputs": [
+    "country_records.csv",
+    "country_records.xlsx",
+    "country_records.json",
+    "country_records.parquet"
+  ],
+  "comparison": {
+    "absolute_tolerance": 1e-08,
+    "relative_tolerance": 0
+  },
+  "key": [
+    "country",
+    "year"
+  ]
+}
