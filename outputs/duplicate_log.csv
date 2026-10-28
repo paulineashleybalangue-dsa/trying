@@ -1,0 +1,9 @@
+source_file,source_record,reason,country,continent,year,lifeExp,pop,gdpPercap
+country_records.csv,duplicate_copy,exact_duplicate_valid_record,Bangladesh,Asia,1972,45.252,70759295,630.2336265
+country_records.csv,duplicate_copy,exact_duplicate_valid_record,Afghanistan,Asia,1977,38.438,14880372,786.11336
+country_records.xlsx,duplicate_copy,exact_duplicate_valid_record,Bangladesh,Asia,1972,45.252,70759295,630.2336265
+country_records.xlsx,duplicate_copy,exact_duplicate_valid_record,Afghanistan,Asia,1977,38.438,14880372,786.11336
+country_records.json,duplicate_copy,exact_duplicate_valid_record,Afghanistan,Asia,1977,38.438,14880372,786.11336
+country_records.json,duplicate_copy,exact_duplicate_valid_record,Bangladesh,Asia,1972,45.252,70759295,630.2336265
+country_records.parquet,duplicate_copy,exact_duplicate_valid_record,Afghanistan,Asia,1977,38.438,14880372,786.11336
+country_records.parquet,duplicate_copy,exact_duplicate_valid_record,Bangladesh,Asia,1972,45.252,70759295,630.2336265

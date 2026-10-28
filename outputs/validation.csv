@@ -1,0 +1,33 @@
+check,expected,actual,tolerance,pass
+country_records.csv_raw_rows,1712,1712,0.0,True
+country_records.csv_quarantined,6,6,0.0,True
+country_records.csv_duplicates,2,2,0.0,True
+country_records.csv_canonical_rows,1704,1704,0.0,True
+country_records.xlsx_raw_rows,1712,1712,0.0,True
+country_records.xlsx_quarantined,6,6,0.0,True
+country_records.xlsx_duplicates,2,2,0.0,True
+country_records.xlsx_canonical_rows,1704,1704,0.0,True
+country_records.json_raw_rows,1712,1712,0.0,True
+country_records.json_quarantined,6,6,0.0,True
+country_records.json_duplicates,2,2,0.0,True
+country_records.json_canonical_rows,1704,1704,0.0,True
+country_records.parquet_raw_rows,1712,1712,0.0,True
+country_records.parquet_quarantined,6,6,0.0,True
+country_records.parquet_duplicates,2,2,0.0,True
+country_records.parquet_canonical_rows,1704,1704,0.0,True
+four_format_agreement,identical by key and canonical values,4 formats compared,1e-08,True
+canonical_key_uniqueness,1704,1704,0.0,True
+allowed_years,manifest allowed years,True,0.0,True
+allowed_continents,manifest allowed continents,True,0.0,True
+asia_selected_year_rows,33,33,0.0,True
+asia_2007_population_total,3811953827,3811953827,0.0,True
+philippines_2007_population,91077287,91077287,0.0,True
+philippines_history_rows,12,12,0.0,True
+csv_round_trip,1704,1704,1e-08,True
+xlsx_round_trip,1704,1704,1e-08,True
+json_round_trip,1704,1704,1e-08,True
+parquet_round_trip,1704,1704,1e-08,True
+total_quarantined,24,24,0.0,True
+total_duplicate_copies,8,8,0.0,True
+population_index_shape,3 rows x 6 year columns plus country,3 rows x 6 years,0.0,True
+numpy_broadcast_vs_loop,equal within 1e-10,equal,1e-10,True

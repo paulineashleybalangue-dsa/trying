@@ -1,0 +1,21 @@
+step,source_file,operation,rule,rows_before,rows_after
+1,country_records.csv,parse_and_normalize,manifest layout and canonical schema,1712,1712
+2,country_records.csv,validate,manifest value/domain rules,1712,1706
+3,country_records.csv,quarantine_invalid,retain original fields and source record number,1712,1706
+4,country_records.csv,remove_exact_duplicates,all six canonical fields identical,1706,1704
+5,country_records.csv,sort,country then year,1704,1704
+1,country_records.xlsx,parse_and_normalize,manifest layout and canonical schema,1712,1712
+2,country_records.xlsx,validate,manifest value/domain rules,1712,1706
+3,country_records.xlsx,quarantine_invalid,retain original fields and source record number,1712,1706
+4,country_records.xlsx,remove_exact_duplicates,all six canonical fields identical,1706,1704
+5,country_records.xlsx,sort,country then year,1704,1704
+1,country_records.json,parse_and_normalize,manifest layout and canonical schema,1712,1712
+2,country_records.json,validate,manifest value/domain rules,1712,1706
+3,country_records.json,quarantine_invalid,retain original fields and source record number,1712,1706
+4,country_records.json,remove_exact_duplicates,all six canonical fields identical,1706,1704
+5,country_records.json,sort,country then year,1704,1704
+1,country_records.parquet,parse_and_normalize,manifest layout and canonical schema,1712,1712
+2,country_records.parquet,validate,manifest value/domain rules,1712,1706
+3,country_records.parquet,quarantine_invalid,retain original fields and source record number,1712,1706
+4,country_records.parquet,remove_exact_duplicates,all six canonical fields identical,1706,1704
+5,country_records.parquet,sort,country then year,1704,1704

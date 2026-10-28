@@ -14,7 +14,6 @@ env/
 htmlcov/
 
 # Generated output and staging (include in final submission ZIP, not normally Git)
-outputs/
 staging/
 test_fixtures/
 
